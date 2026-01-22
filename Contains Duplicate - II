@@ -1,4 +1,4 @@
-# contains_duplicate_ii.py
+
 from typing import List
 
 class Solution:
@@ -15,7 +15,6 @@ class Solution:
             last_seen[value] = i
         return False
 
-# Example usage
 if __name__ == "__main__":
     sol = Solution()
     print(sol.containsNearbyDuplicate([1,2,3,1], 3))  # True
